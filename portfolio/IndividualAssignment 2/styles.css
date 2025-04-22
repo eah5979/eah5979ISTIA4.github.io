@@ -1,0 +1,28 @@
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+} 
+
+.album:hover{
+    transform: scale(1.2) translateY(40px);
+    opacity: 1;
+} 
+
+header{
+    float: right;
+    position: relative;
+}
+
+footer {
+    background: blue;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
+

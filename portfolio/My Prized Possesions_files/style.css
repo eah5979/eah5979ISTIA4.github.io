@@ -1,0 +1,30 @@
+body{
+    background-color: #FFB6C1
+
+}
+h1{
+    color:#E75480
+}
+
+h2{
+    border-style: solid;
+    border-color: black;
+}
+
+ul,ol {
+    border-style:solid;
+    border-color: #E75480;
+    color: #E0115F
+}
+
+#head{
+    color: #E0115F;
+}
+
+head{ 
+    text-align: center;
+}
+
+img:hover{
+    opacity: 0.7;
+}

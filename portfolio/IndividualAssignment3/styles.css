@@ -1,0 +1,111 @@
+body, header{
+    background-color: blanchedalmond;
+}
+
+h1{ 
+    color: navy;
+    font-size: 56px;
+    font-family: fantasy;
+}
+
+ h2{ 
+    color:navy;
+    font-size: 24px ;
+    font-family: fantasy;
+ }
+
+ h3{ 
+    color:navy;
+    font-size: 16px ;
+    font-family: fantasy;
+ }
+
+ p1{
+    color:navy;
+    font-size: 16px ;
+    font-family: fantasy;
+ }
+
+ p2{ 
+    color:navy;
+    font-size: 8px ;
+    font-family: fantasy;
+ } 
+
+ .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photos img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.tablet-menu {
+    display: none;
+    padding: 20px;
+}
+
+.tablet-menu .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tablet-menu img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.phone-view img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.tablet-footer {
+    display: absolute;
+} 
+
+.tablet-menu {
+    display: block;
+}
+
+.tablet-footer {
+    display: block;
+}
+
+.tablet-menu {
+    display: none;
+}
+.phone-view {
+    display: block;
+}
+.desktop-footer
+ {
+    footer {
+        background: black;
+        color: white;
+        padding: 10px;
+        position: block;
+        bottom: 0;
+        width: 100%;
+    } 
+ }

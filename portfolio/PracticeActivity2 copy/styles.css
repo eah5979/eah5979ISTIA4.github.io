@@ -1,0 +1,82 @@
+
+.container{ 
+    display: grid;
+    gap: 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font: Arial;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "Header Header Header"
+    "Sidebar Content-1 Content-1"
+    "Sidebar Content-2 Content-3"
+    "Footer Footer Footer";
+}
+
+.Header{
+    border: 2px solid;
+    grid-area: Header;
+    padding: 5px;
+    background-color: rgb(126, 18, 228);
+}
+
+.Sidebar{ 
+    border: 2px solid;
+    grid-area: Sidebar;
+    padding: 5px;
+    background-color: rgb(12, 241, 241);
+    font-weight: bold;
+}
+
+.Content-1{ 
+    border: 2px solid;
+    grid-area: Content-1;
+    padding: 100px;
+    background-color: #258ee9;
+}
+
+.Content-2{
+    border: 2px solid;
+    grid-area: Content-2;
+    padding: 100px;
+    background-color:#258ee9;
+    transform: scaleY(1.5);
+}
+
+.Content-3{
+    border: 2px solid;
+    grid-area: Content-3;
+    padding: 100px;
+    background-color: #258ee9;
+    transform: rotate(20deg);
+}
+
+.Footer:hover{
+    border: 2px solid;
+    grid-area: Footer;
+    padding: 5px;
+    background-color:  rgb(126, 18, 228);
+}
+.sidebar {
+    grid-template-columns: auto;
+    background: linear-gradient(to bottom, cyan, teal);
+    padding: 20px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+
+.content-1, .content-2, .content-3 {
+    background: linear-gradient(to bottom right, blue, cyan);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+img { 
+    filter: grayscale(50%);
+    filter:contrast(200%);
+}
+
+
